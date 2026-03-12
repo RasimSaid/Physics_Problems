@@ -1,21 +1,20 @@
 ## 5. Trigonometry
 
-### What are Sin and Cos?
+In a **right triangle**, trigonometric ratios describe the relationship between the sides of the triangle and an angle \( \theta \).
 
-In a **right triangle**, the trigonometric ratios of an angle are defined as:
+Cosine is defined as the ratio of the **adjacent side** to the **hypotenuse**:
 
-- **Cosine (cos)**: the ratio of the **adjacent side** to the **hypotenuse**
-- **Sine (sin)**: the ratio of the **opposite side** to the **hypotenuse**
-
-\[
+$$
 \cos\theta = \frac{\text{adjacent}}{\text{hypotenuse}}
-\]
+$$
 
-\[
+Sine is defined as the ratio of the **opposite side** to the **hypotenuse**:
+
+$$
 \sin\theta = \frac{\text{opposite}}{\text{hypotenuse}}
-\]
+$$
 
-### Triangle Illustration
+Triangle representation:
 
     |\
     | \
@@ -27,11 +26,6 @@ side |
 adjacent
 side
 
-
-- **θ (theta)** is the angle.
-- **Adjacent side** is used in cosine.
-- **Opposite side** is used in sine.
-- **Hypotenuse** is the longest side of the right triangle.
 
 ---
 
@@ -59,7 +53,7 @@ A_y = 15\sin60^\circ = 15\cdot\frac{\sqrt{3}}{2}
 \approx 12.99
 $$
 
-### Final Answer
+### Final answer
 
 $$
 A_x = 7.5
