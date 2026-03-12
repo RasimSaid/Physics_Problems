@@ -1,6 +1,6 @@
 ## 5. Trigonometry
 
-In a right triangle, trigonometric ratios describe the relationship between the sides of the triangle and an angle \( \theta \).
+In a right triangle, trigonometric ratios describe the relationship between the sides of the triangle and an angle $\theta$.
 
 Cosine is defined as the ratio of the adjacent side to the hypotenuse:
 
@@ -26,11 +26,11 @@ $$
       adjacent
 ```
 
-- Adjacent side is the side next to the angle \( \theta \)
-- Opposite side is the side across from the angle \( \theta \)
-- Hypotenuse is the longest side of the right triangle
+- Adjacent side is the side next to the angle $\theta$  
+- Opposite side is the side across from the angle $\theta$  
+- Hypotenuse is the longest side of the right triangle  
 
-A vector \( \vec{A} \) has magnitude \( 15 \) and angle \( 60^\circ \) with the horizontal.
+A vector $\vec{A}$ has magnitude $15$ and angle $60^\circ$ with the horizontal.
 
 The horizontal and vertical components are:
 
