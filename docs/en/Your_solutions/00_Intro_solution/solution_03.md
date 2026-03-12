@@ -1,41 +1,23 @@
 ## 3. Proportionality
 
-The Universal Law of Gravitation is
+Universal Law of Gravitation:
 
-$$
-F = G\frac{m_1 m_2}{r^2}
-$$
+$F = G \frac{m_1 m_2}{r^2}$
 
-We want the factor change if:
+Changes:
 
-- $r$ is doubled $\to r' = 2r$
-- both masses are halved $\to m_1' = \frac{m_1}{2}, \; m_2' = \frac{m_2}{2}$
+$m_1 \rightarrow \frac{m_1}{2}$  
+$m_2 \rightarrow \frac{m_2}{2}$  
+$r \rightarrow 2r$
 
 New force:
 
-$$
-F' = G\frac{\left(\frac{m_1}{2}\right)\left(\frac{m_2}{2}\right)}{(2r)^2}
-$$
+$F' = G \frac{(m_1/2)(m_2/2)}{(2r)^2}$
 
-$$
-F' = G\frac{m_1 m_2}{4 \cdot 4r^2}
-= G\frac{m_1 m_2}{16r^2}
-$$
+$F' = G \frac{m_1 m_2}{16r^2}$
 
-Thus,
+$F' = \frac{F}{16}$
 
-$$
-F' = \frac{1}{16}F
-$$
-
-### Final answer
-
-The force becomes
-
-$$
-\frac{1}{16}
-$$
-
-of the original force.
+**The gravitational force becomes 1/16 of the original.**
 
 ---
