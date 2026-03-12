@@ -1,49 +1,26 @@
 ## 2. Systems of Equations
 
-Solve the system:
-
-$$
-2x + 3y = 12
-$$
-
-$$
-x - y = 1
-$$
+$2x + 3y = 12$  
+$x - y = 1$
 
 From the second equation:
 
-$$
-x = y + 1
-$$
+$x = 1 + y$
 
 Substitute into the first equation:
 
-$$
-2(y+1) + 3y = 12
-$$
+$2(1+y) + 3y = 12$
 
-$$
-2y + 2 + 3y = 12
-$$
+$2 + 2y + 3y = 12$
 
-$$
-5y = 10
-$$
+$5y = 10$
 
-$$
-y = 2
-$$
+$y = 2$
 
-Then,
+$x = 1 + 2 = 3$
 
-$$
-x = y + 1 = 3
-$$
+**Solution**
 
-### Final answer
-
-$$
-x = 3,\quad y = 2
-$$
+$x = 3$, $y = 2$
 
 ---
