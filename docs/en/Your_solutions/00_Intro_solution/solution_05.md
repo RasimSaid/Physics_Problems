@@ -2,13 +2,13 @@
 
 In a right triangle, trigonometric ratios describe the relationship between the sides of the triangle and an angle \( \theta \).
 
-Cosine is defined as the ratio of the **adjacent side** to the **hypotenuse**:
+Cosine is defined as the ratio of the adjacent side to the hypotenuse:
 
 $$
 \cos\theta = \frac{\text{adjacent}}{\text{hypotenuse}}
 $$
 
-Sine is defined as the ratio of the **opposite side** to the **hypotenuse**:
+Sine is defined as the ratio of the opposite side to the hypotenuse:
 
 $$
 \sin\theta = \frac{\text{opposite}}{\text{hypotenuse}}
@@ -26,9 +26,9 @@ $$
       adjacent
 ```
 
-- **Adjacent side** is the side next to the angle \( \theta \)
-- **Opposite side** is the side across from the angle \( \theta \)
-- **Hypotenuse** is the longest side of the right triangle
+- Adjacent side is the side next to the angle \( \theta \)
+- Opposite side is the side across from the angle \( \theta \)
+- Hypotenuse is the longest side of the right triangle
 
 A vector \( \vec{A} \) has magnitude \( 15 \) and angle \( 60^\circ \) with the horizontal.
 
