@@ -38,7 +38,6 @@ To find the total distance traveled along the spiral from $t=0$ to $t=t_0$, we m
     $$\mathbf{s = \int_{0}^{t_0} \sqrt{a^2\omega^2\sin^2(\omega t) + b^2\omega^2\cos^2(\omega t) + b^2} dt}$$
 
 
-
 ---
 
 ### 💡 Special Case: The Circular Helix ($a = b$)
