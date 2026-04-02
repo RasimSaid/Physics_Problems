@@ -1,21 +1,130 @@
-# Section 2: Mechanics II - Solutions
+# 🧭 Section 2: Mechanics II – Solutions (Improved)
 
-This document provides detailed solutions for the Mechanics II problem set. All calculations assume $g = 9.81 \, \text{m/s}^2$ unless otherwise stated.
+We use the pendulum formula:
+
+\[
+T = 2\pi \sqrt{\frac{L}{g}}
+\]
+
+where:
+- \(T\) = period (time for one swing)
+- \(L\) = length of the pendulum
+- \(g\) = gravitational acceleration
+
+---
+
+## 🌍 1. Gravitational Dependence
+
+### 🔹 Key Idea
+
+The period depends on gravity like this:
+
+\[
+T \propto \frac{1}{\sqrt{g}}
+\]
+
+👉 This means:
+- **Stronger gravity → faster swings (smaller \(T\))**
+- **Weaker gravity → slower swings (larger \(T\))**
 
 ---
 
-## 1. Gravitational Dependence
+## 🌙 Part A: Period on the Moon
 
-**Problem:** A simple pendulum has a period of 4s on Earth. What is its period on the Moon ($g_m \approx \frac{1}{6}g_e$)? What is the length $L$ for $T = 1\text{s}$ on Earth?
-
-**Solution:**
-The period is given by $T = 2\pi\sqrt{\frac{L}{g}}$.
-
-* **Period on the Moon:**
-    Since $T \propto \frac{1}{\sqrt{g}}$, if gravity is $1/6$, the period increases by $\sqrt{6}$.
-    $$T_{moon} = T_{earth} \times \sqrt{6} = 4 \times \sqrt{6} \approx \mathbf{9.80 \, \text{s}}$$
-
-* **Length on Earth for $T = 1\text{s}$:**
-    $$1 = 2\pi\sqrt{\frac{L}{9.81}} \implies L = \frac{9.81}{4\pi^2} \approx \mathbf{0.248 \, \text{m}}$$
+### Step 1: Compare gravity
+On the Moon:
+\[
+g_{moon} = \frac{1}{6} g_{earth}
+\]
 
 ---
+
+### Step 2: Use proportionality
+
+\[
+T_{moon} = T_{earth} \times \sqrt{\frac{g_{earth}}{g_{moon}}}
+\]
+
+\[
+= 4 \times \sqrt{6}
+\]
+
+---
+
+### Step 3: Calculate
+
+\[
+\sqrt{6} \approx 2.45
+\]
+
+\[
+T_{moon} \approx 4 \times 2.45 = \mathbf{9.80 \, \text{s}}
+\]
+
+---
+
+### 🎯 Interpretation
+
+- On Earth: one swing = **4 s**
+- On Moon: one swing ≈ **9.8 s**
+
+👉 The pendulum swings **much slower** because gravity is weaker.
+
+---
+
+## 📏 Part B: Length for \(T = 1\text{s}\) on Earth
+
+We rearrange the formula to solve for \(L\):
+
+---
+
+### Step 1: Start with formula
+
+\[
+T = 2\pi \sqrt{\frac{L}{g}}
+\]
+
+---
+
+### Step 2: Isolate \(L\)
+
+\[
+\frac{T}{2\pi} = \sqrt{\frac{L}{g}}
+\]
+
+Square both sides:
+
+\[
+\frac{T^2}{4\pi^2} = \frac{L}{g}
+\]
+
+\[
+L = \frac{gT^2}{4\pi^2}
+\]
+
+---
+
+### Step 3: Plug in values
+
+\[
+L = \frac{9.81 \cdot (1)^2}{4\pi^2}
+\]
+
+\[
+L \approx \frac{9.81}{39.48} \approx \mathbf{0.248 \, \text{m}}
+\]
+
+---
+
+### 🎯 Interpretation
+
+- Required length ≈ **0.25 m (25 cm)**
+- Shorter pendulum → **faster oscillations**
+
+---
+
+## 🧠 Quick Summary Box
+
+- 📉 Gravity ↓ → Period ↑  
+- 📈 Gravity ↑ → Period ↓  
+- 📏 Length ↑ → Period ↑  
