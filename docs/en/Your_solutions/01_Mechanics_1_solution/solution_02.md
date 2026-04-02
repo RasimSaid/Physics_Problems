@@ -15,14 +15,16 @@ $$R(\theta) = \frac{v_0^2 \sin(2\theta)}{g}$$
 To find the absolute peak of this function, we look for the point where the "slope" of the range change becomes zero. We take the derivative with respect to the angle $\theta$:
 
 1.  **Differentiate:**
+2.  
     $$\frac{dR}{d\theta} = \frac{v_0^2}{g} \cdot \frac{d}{d\theta}(\sin(2\theta))$$
+    
     $$\frac{dR}{d\theta} = \frac{v_0^2}{g} \cdot 2\cos(2\theta)$$
 
-2.  **Set to Zero (Optimization):**
+3.  **Set to Zero (Optimization):**
     To find the maximum, we set $\frac{dR}{d\theta} = 0$:
     $$\frac{2v_0^2}{g} \cos(2\theta) = 0 \implies \cos(2\theta) = 0$$
 
-3.  **Solve for $\theta$:**
+4.  **Solve for $\theta$:**
     The cosine function is zero at $90^\circ$:
     $$2\theta = 90^\circ \implies \mathbf{\theta = 45^\circ}$$
 
