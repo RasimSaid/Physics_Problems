@@ -1,65 +1,54 @@
-# 穴 Sound Wave Properties Analysis
+# 🌊 Section 3: Waves - Problem Solution
 
-This document provides a step-by-step solution for calculating the wavelength of a sound wave in different mediums (**Air** vs. **Water**).
+## 1. Wave Properties
 
----
+### 📐 The Problem
+A sound wave in air has a frequency of **440 Hz**. 
+* **Case A:** Speed of sound in air is **343 m/s**.
+* **Case B:** Speed of sound in water is **1482 m/s**.
 
-## 盗 The Physics Formula
-
-To find the wavelength, we use the fundamental wave equation:
-
-$$\lambda = rac{v}{f}$$
-
-| Symbol | Description | Unit |
-| :---: | :--- | :--- |
-| $\lambda$ | **Wavelength** | Meters (m) |
-| $v$ | **Wave Speed** | Meters per second (m/s) |
-| $f$ | **Frequency** | Hertz (Hz) |
+Find the wavelength ($\lambda$) for both cases.
 
 ---
 
-## 屏?ｸ?Problem Breakdown
+### 💡 Physics Principle
+To find the wavelength, we use the wave speed formula:
+$$v = f \cdot \lambda$$
 
-### **Given Data**
-* **Frequency ($f$):** $440 	ext{ Hz}$ (Standard tuning A4)
-* **Speed in Air ($v_{air}$):** $343 	ext{ m/s}$
-* **Speed in Water ($v_{water}$):** $1482 	ext{ m/s}$
+Rearranging for wavelength ($\lambda$):
+$$\lambda = \frac{v}{f}$$
 
----
-
-## 統 Solutions
-
-### 軒?ｸ?1. Wavelength in Air
-Substituting the values for air into the formula:
-
-$$\lambda_{air} = rac{343 	ext{ m/s}}{440 	ext{ Hz}}$$
-
-> **Result:** $\lambda_{air}  pprox \mathbf{0.780 	ext{ m}}$
+> **Note:** The frequency ($f$) of a wave is determined by the source and remains constant as it moves from air to water. Only the speed and wavelength change.
 
 ---
 
-### 挑 2. Wavelength in Water
-Substituting the values for water into the formula:
+### 🛠️ Step-by-Step Solution
 
-$$\lambda_{water} = rac{1482 	ext{ m/s}}{440 	ext{ Hz}}$$
+#### **Part 1: Wavelength in Air**
+* **Given:** $v = 343 \text{ m/s}$, $f = 440 \text{ Hz}$
+* **Calculation:**
+    $$\lambda_{air} = \frac{343}{440}$$
+* **Result:** > **$\lambda_{air} \approx 0.78 \text{ meters}$**
 
-> **Result:** $\lambda_{water}  pprox \mathbf{3.368 	ext{ m}}$
+
+
+[Image of wavelength of a longitudinal wave]
+
+
+#### **Part 2: Wavelength in Water**
+* **Given:** $v = 1482 \text{ m/s}$, $f = 440 \text{ Hz}$
+* **Calculation:**
+    $$\lambda_{water} = \frac{1482}{440}$$
+* **Result:**
+    > **$\lambda_{water} \approx 3.37 \text{ meters}$**
 
 ---
 
-## 投 Comparison Table
+### 📊 Comparison Summary
 
 | Medium | Speed ($v$) | Frequency ($f$) | Wavelength ($\lambda$) |
 | :--- | :--- | :--- | :--- |
-| **Air** | $343 	ext{ m/s}$ | $440 	ext{ Hz}$ | **$0.78 	ext{ m}$** |
-| **Water** | $1482 	ext{ m/s}$ | $440 	ext{ Hz}$ | **$3.37 	ext{ m}$** |
+| **Air** | $343 \text{ m/s}$ | $440 \text{ Hz}$ | **$\approx 0.78 \text{ m}$** |
+| **Water** | $1482 \text{ m/s}$ | $440 \text{ Hz}$ | **$\approx 3.37 \text{ m}$** |
 
----
-
-## 庁 Key Observation
-When a sound wave travels from air to water:
-1.  The **Frequency** remains constant.
-2.  The **Speed** increases significantly (water is denser).
-3.  The **Wavelength** increases proportionally to the speed.
-
-In this example, the sound wave is approximately **4.3 times longer** in water than in air.
+**Conclusion:** Sound travels faster in water than in air; therefore, at the same frequency, the wavelength in water is significantly longer (about **4.3 times** longer).
