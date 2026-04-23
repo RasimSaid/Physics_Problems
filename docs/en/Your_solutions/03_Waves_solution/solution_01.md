@@ -32,8 +32,6 @@ $$\lambda = \frac{v}{f}$$
 
 
 
-[Image of wavelength of a longitudinal wave]
-
 
 #### **Part 2: Wavelength in Water**
 * **Given:** $v = 1482 \text{ m/s}$, $f = 440 \text{ Hz}$
