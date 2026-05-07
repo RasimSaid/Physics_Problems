@@ -1,34 +1,27 @@
-# 🧲 4. Magnetic Torque
+# 4. Magnetic Torque
 
-## 📘 Problem
+## Problem
 
-A rectangular loop of wire with dimensions
+A rectangular loop of wire with dimensions:
 
-\[
-10 \text{ cm} \times 5 \text{ cm}
-\]
+- Length = 10 cm = 0.10 m
+- Width = 5 cm = 0.05 m
 
-carries a current of
+The loop carries a current of:
 
-\[
-I = 2 \text{ A}
-\]
+- I = 2 A
 
-A uniform magnetic field of
+A uniform magnetic field is applied:
 
-\[
-B = 0.3 \text{ T}
-\]
+- B = 0.3 T
 
-is applied **parallel to the plane of the loop**.
+The magnetic field is parallel to the plane of the loop.
 
-Find the magnitude of the **magnetic torque** on the loop.
+Find the magnitude of the magnetic torque.
 
 ---
 
-# 🧠 Concept
-
-The magnetic torque on a current loop is given by:
+## Formula
 
 \[
 \tau = N I A B \sin\theta
@@ -36,44 +29,16 @@ The magnetic torque on a current loop is given by:
 
 Where:
 
-| Symbol | Meaning |
-|---|---|
-| \(\tau\) | Magnetic Torque |
-| \(N\) | Number of turns |
-| \(I\) | Current |
-| \(A\) | Area of loop |
-| \(B\) | Magnetic field |
-| \(\theta\) | Angle between magnetic moment and field |
+- \(\tau\) = magnetic torque
+- \(N\) = number of turns
+- \(I\) = current
+- \(A\) = area
+- \(B\) = magnetic field
+- \(\theta\) = angle between magnetic moment and field
 
 ---
 
-# 📌 Given Values
-
-```text
-Length = 10 cm = 0.10 m
-Width  = 5 cm  = 0.05 m
-I = 2 A
-B = 0.3 T
-N = 1
-```
-
-Since the magnetic field is **parallel to the plane** of the loop:
-
-\[
-\theta = 90^\circ
-\]
-
-Therefore:
-
-\[
-\sin 90^\circ = 1
-\]
-
----
-
-# ✏️ Step-by-Step Solution
-
-## Step 1 — Calculate the Area
+## Step 1: Calculate Area
 
 \[
 A = l \times w
@@ -89,56 +54,56 @@ A = 0.005 \text{ m}^2
 
 ---
 
-## Step 2 — Apply Torque Formula
+## Step 2: Determine Angle
+
+Since the magnetic field is parallel to the plane of the loop:
+
+\[
+\theta = 90^\circ
+\]
+
+\[
+\sin 90^\circ = 1
+\]
+
+---
+
+## Step 3: Calculate Torque
 
 \[
 \tau = N I A B \sin\theta
 \]
 
-Substitute the values:
+\[
+\tau = (1)(2)(0.005)(0.3)(1)
+\]
 
 \[
-\tau
-=
-(1)(2)(0.005)(0.3)(1)
+\tau = 0.003 \text{ N m}
 \]
 
 ---
 
-## Step 3 — Calculate
-
-\[
-\tau = 0.003 \text{ N·m}
-\]
-
----
-
-# ✅ Final Answer
+## Final Answer
 
 \[
 \boxed{
-\tau = 3.0 \times 10^{-3} \text{ N·m}
+\tau = 3.0 \times 10^{-3} \text{ N m}
 }
 \]
 
 ---
 
-# 🌐 Visual Representation
+## Diagram
 
 ```text
-          Magnetic Field B →
-→ → → → → → → → → → → → → →
+Magnetic Field ---> ---> --->
 
-       ┌─────────────────┐
-       │                 │
-       │     Current     │
-       │       Loop      │
-       │                 │
-       └─────────────────┘
+    +-------------------+
+    |                   |
+    |    Current Loop   |
+    |                   |
+    +-------------------+
 
-    Plane of loop is parallel to B
-
-        ⇒ Maximum Torque
+Plane of loop is parallel to magnetic field
 ```
-
-> The torque is maximum because the magnetic field is parallel to the plane of the loop.
