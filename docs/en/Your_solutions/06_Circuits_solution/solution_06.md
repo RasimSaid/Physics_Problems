@@ -1,137 +1,121 @@
-# Kirchhoff’s Laws – Ammeter Current Calculation
+# Kirchhoff’s Laws — Ammeter Current
 
 ## Problem
 
-Calculate the current flowing through the ammeter in the circuit below.
-
-- \( \mathcal{E}_1 = 9\text{ V} \)
-- \( \mathcal{E}_2 = 4.5\text{ V} \)
-- Internal resistances: \( r_w = 1\Omega \)
-- \( R_1 = 10\Omega \)
-- \( R_2 = 20\Omega \)
+Find the current flowing through the ammeter in the circuit.
 
 ---
 
-# Step 1 — Define Currents
+## Given Values
+
+| Component | Value |
+|---|---|
+| \( \mathcal{E}_1 \) | \(9\,\text{V}\) |
+| \( \mathcal{E}_2 \) | \(4.5\,\text{V}\) |
+| Internal resistances | \(1\,\Omega\) each |
+| \(R_1\) | \(10\,\Omega\) |
+| \(R_2\) | \(20\,\Omega\) |
+
+---
+
+# Step 1 — Define Mesh Currents
 
 Let:
 
-- \( I_2 \) = current through the ammeter and \(R_2\)
-- \( I_1 \) = current in the outer loop
+- \(I_1\) = current in the **outer loop**
+- \(I_2\) = current in the **inner loop** (through the ammeter)
 
-Using Kirchhoff’s Voltage Law (KVL), we write equations for both loops.
+The resistor \(R_1\) is shared by both loops.
 
----
-
-# Step 2 — Inner Loop Equation
-
-Components in the inner loop:
-
-- \(4.5\text{ V}\) battery
-- internal resistance \(1\Omega\)
-- resistor \(20\Omega\)
-
-Applying KVL:
+Therefore, current through \(R_1\):
 
 \[
-4.5 - I_2(1+20) + V = 0
-\]
-
-Simplify:
-
-\[
-V = 21I_2 - 4.5
+I_{R_1}=I_1-I_2
 \]
 
 ---
 
-# Step 3 — Outer Loop Equation
+# Step 2 — Apply Kirchhoff’s Voltage Law
 
-Components in the outer loop:
+## Outer Loop
 
-- \(9\text{ V}\) battery
-- internal resistance \(1\Omega\)
-- resistor \(10\Omega\)
-
-Applying KVL:
+Traversing clockwise:
 
 \[
-V = 9 - I_1(1+10)
+9 - 1I_1 - 10(I_1-I_2)=0
 \]
 
-Simplify:
+Expand:
 
 \[
-V = 9 - 11I_1
-\]
-
----
-
-# Step 4 — Voltage Across \(R_1\)
-
-Current through \(R_1\):
-
-\[
-I_{R_1} = I_1 - I_2
-\]
-
-Voltage across \(R_1\):
-
-\[
-V = 10(I_1 - I_2)
-\]
-
-Now substitute into both equations:
-
-## Equation (1)
-
-\[
-10(I_1-I_2)=21I_2-4.5
+9 - I_1 - 10I_1 + 10I_2 =0
 \]
 
 \[
-10I_1 - 31I_2 = -4.5
+11I_1 - 10I_2 = 9
 \]
 
 ---
 
-## Equation (2)
+## Inner Loop
+
+Traversing clockwise:
 
 \[
-10(I_1-I_2)=9-11I_1
+4.5 - 1I_2 - 20I_2 - 10(I_2-I_1)=0
+\]
+
+Expand:
+
+\[
+4.5 - 21I_2 -10I_2 +10I_1 =0
 \]
 
 \[
-21I_1 - 10I_2 = 9
+10I_1 -31I_2 = -4.5
 \]
 
 ---
 
-# Step 5 — Solve the System
+# Step 3 — Solve the System
 
 We now solve:
 
 \[
 \begin{cases}
-21I_1 - 10I_2 = 9 \\
+11I_1 - 10I_2 = 9 \\
 10I_1 - 31I_2 = -4.5
 \end{cases}
 \]
 
-Result:
+Multiply the first equation by \(10\):
 
 \[
-I_2 \approx 0.31\text{ A}
+110I_1 -100I_2 = 90
+\]
+
+Multiply the second equation by \(11\):
+
+\[
+110I_1 -341I_2 = -49.5
+\]
+
+Subtract:
+
+\[
+241I_2 = 139.5
+\]
+
+\[
+I_2 \approx 0.579\text{ A}
 \]
 
 ---
 
 # Final Answer
 
+The current through the ammeter is:
+
 \[
-\boxed{I = 0.31\text{ A}}
+\boxed{0.58\ \text{A}}
 \]
-
-So, the current flowing through the ammeter is:
-
-## **0.31 A**
